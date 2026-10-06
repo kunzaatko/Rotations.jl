@@ -4,6 +4,8 @@ using Rotations
 using Makie
 using StaticArrays
 
+import Rotations.Visualization: rotation2plot, rotation2plot!,rotation3plot ,rotation3plot
+
 Makie.plottype(::Rotation{2}) = Rotation2Plot
 Makie.plottype(::Rotation{3}) = Rotation3Plot
 
